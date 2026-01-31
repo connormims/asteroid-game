@@ -55,6 +55,8 @@ def main():
                     for s in shots:
                         s.kill()
                     player.reset() 
+                if event.key == pygame.K_ESCAPE:
+                    sys.exit()
 
         # --- 1. LOGIC ---
         if not game_over:
@@ -96,7 +98,10 @@ def main():
             screen.blit(final_score_surface, (SCREEN_WIDTH/2 - 130, SCREEN_HEIGHT/2 - 20))
 
             retry_surface = score_font.render("Press 'R' to Restart", True, (200, 200, 200))
-            screen.blit(retry_surface, (SCREEN_WIDTH/2 - 180, SCREEN_HEIGHT/2 + 20))
+            screen.blit(retry_surface, (SCREEN_WIDTH/2 - 175, SCREEN_HEIGHT/2 + 20))
+
+            quit_surface = score_font.render("Press 'Esc' to Quit", True, (200, 200, 200))
+            screen.blit(quit_surface, (SCREEN_WIDTH/2 - 170, SCREEN_HEIGHT/2 + 60))
 
         pygame.display.flip()
         fps = clock.tick(60)
