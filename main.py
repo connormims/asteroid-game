@@ -13,7 +13,7 @@ def main():
         log_state()
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-            return
+                return
         screen.fill("black")
         pygame.display.flip()
 
