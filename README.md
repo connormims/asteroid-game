@@ -18,7 +18,7 @@ Before running the game, ensure you have **Python 3.x** installed.
    git clone https://github.com/connormims/asteroid-game.git
    cd asteroid-game
 
-2. **Set up a Virtual Environment**
+2. **Set up a Virtual Environment (Recommended): This keeps the game's files separate from your system.** 
     ```bash
     # Create the virtual environment
     python -m venv venv
@@ -29,9 +29,9 @@ Before running the game, ensure you have **Python 3.x** installed.
     # Activate it (Mac/Linux):
     source venv/bin/activate
 
-3. **Install Pygame:**
+3. **Install the exact version of Pygame used in development:**
     ```bash
-    pip install pygame
+    python -m pip install pygame==2.6.1
 
 ## How to Play
 
