@@ -15,17 +15,13 @@ Before running the game, ensure you have **Python 3.x** installed.
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/connormims/asteroid-game.git](https://github.com/connormims/asteroid-game.git)
+   git clone https://github.com/connormims/asteroid-game.git
    cd asteroid-game
 
 
 2. **Install Pygame:**
     ```bash
     pip install pygame
-
-```
-
-
 
 ## How to Play
 
@@ -36,7 +32,8 @@ python main.py
 ```
 
 
-* **Controls:**
+## Controls:
+
 * **W / A / D:** Thrust and Rotate
 * **Space:** Fire Lasers
 * **Enter:** Submit username (on Game Over)
