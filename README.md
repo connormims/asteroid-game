@@ -21,7 +21,7 @@ Before running the game, ensure you have **Python 3.x** installed.
 2. **Set up a Virtual Environment (Recommended): This keeps the game's files separate from your system.** 
     ```bash
     # Create the virtual environment
-    python -m venv venv
+    python3 -m venv venv
 
     # Activate it (Windows):
     .\venv\Scripts\activate
@@ -31,13 +31,13 @@ Before running the game, ensure you have **Python 3.x** installed.
 
 3. **Install the exact version of Pygame used in development:**
     ```bash
-    python -m pip install pygame==2.6.1
+    python3 -m pip install pygame==2.6.1
 
 ## How to Play
 
 * **Launch the game:**
 ```bash
-python main.py
+python3 main.py
 
 ```
 
