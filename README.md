@@ -34,7 +34,7 @@ python main.py
 
 ## Controls:
 
-* **W / A / D:** Thrust and Rotate
+* **W / A / S / D:** Thrust and Rotate
 * **Space:** Fire Lasers
 * **Enter:** Submit username (on Game Over)
 * **R:** Restart Game
